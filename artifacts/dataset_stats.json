@@ -1,0 +1,93 @@
+{
+  "classes": [
+    "head",
+    "helmet"
+  ],
+  "positive_classes": [
+    "head"
+  ],
+  "splits": {
+    "train": {
+      "images": 4916,
+      "instances": {
+        "head": 4612,
+        "helmet": 13919
+      },
+      "images_with_class": {
+        "head": 911,
+        "helmet": 4503
+      },
+      "background_images": 0,
+      "positive_images": 911,
+      "negative_images": 4005,
+      "positive_share": 0.185313262815297,
+      "image_sizes": [
+        "1000x667",
+        "179x270",
+        "192x300",
+        "193x220",
+        "193x300"
+      ]
+    },
+    "val": {
+      "images": 1413,
+      "instances": {
+        "head": 1339,
+        "helmet": 3913
+      },
+      "images_with_class": {
+        "head": 256,
+        "helmet": 1297
+      },
+      "background_images": 0,
+      "positive_images": 256,
+      "negative_images": 1157,
+      "positive_share": 0.18117480537862704,
+      "image_sizes": [
+        "1000x667",
+        "1100x290",
+        "167x154",
+        "168x300",
+        "199x300"
+      ]
+    },
+    "test": {
+      "images": 706,
+      "instances": {
+        "head": 726,
+        "helmet": 1915
+      },
+      "images_with_class": {
+        "head": 140,
+        "helmet": 636
+      },
+      "background_images": 0,
+      "positive_images": 140,
+      "negative_images": 566,
+      "positive_share": 0.19830028328611898,
+      "image_sizes": [
+        "199x300",
+        "200x151",
+        "200x300",
+        "231x178",
+        "300x199"
+      ]
+    }
+  },
+  "object_size_rel_area": {
+    "head": {
+      "p10": 0.002180720746332304,
+      "median": 0.006028257456828885,
+      "p90": 0.019608868748988515,
+      "share_small_lt_1pct": 0.7161899056462483
+    },
+    "helmet": {
+      "p10": 0.002222880983750549,
+      "median": 0.008292682926829269,
+      "p90": 0.04855255255255255,
+      "share_small_lt_1pct": 0.5559831873195928
+    }
+  },
+  "test_near_duplicates_of_train": 19,
+  "val_near_duplicates_of_train": 51
+}

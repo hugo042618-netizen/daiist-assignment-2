@@ -1,0 +1,181 @@
+{
+  "costs": {
+    "fn": 50.0,
+    "fp": 4.0,
+    "tp": 4.0,
+    "tn": 0.0,
+    "hourly_cost": 20.0,
+    "review_seconds": 10.0,
+    "base_rate": 0.05,
+    "cases_per_day": 6000,
+    "reviewer_hours_per_day": 6.5,
+    "review": 0.05555555555555555
+  },
+  "max_reviewers": 1.0,
+  "chosen_on": "val",
+  "t_single": 0.21,
+  "t_low": 0.002,
+  "t_high": 0.87,
+  "unconstrained_band_on_val": {
+    "t_low": 0.002,
+    "t_high": 0.87,
+    "cost_per_case": 0.2365805888672813,
+    "cost_per_1000": 236.5805888672813,
+    "review_share": 0.33501309961106307,
+    "recall_violation": 0.9921875,
+    "false_alert_rate": 0.0,
+    "rate_pos_pass": 0.0078125,
+    "rate_pos_review": 0.640625,
+    "rate_pos_fail": 0.3515625,
+    "rate_neg_pass": 0.6810717372515125,
+    "rate_neg_review": 0.31892826274848746,
+    "rate_neg_fail": 0.0,
+    "reviews_per_day": 2010.0785976663785,
+    "review_hours_per_day": 5.583551660184384,
+    "reviewers_needed": 0.8590079477206746
+  },
+  "val_band": {
+    "t_low": 0.002,
+    "t_high": 0.87,
+    "cost_per_case": 0.2365805888672813,
+    "cost_per_1000": 236.5805888672813,
+    "review_share": 0.33501309961106307,
+    "recall_violation": 0.9921875,
+    "false_alert_rate": 0.0,
+    "rate_pos_pass": 0.0078125,
+    "rate_pos_review": 0.640625,
+    "rate_pos_fail": 0.3515625,
+    "rate_neg_pass": 0.6810717372515125,
+    "rate_neg_review": 0.31892826274848746,
+    "rate_neg_fail": 0.0,
+    "reviews_per_day": 2010.0785976663785,
+    "review_hours_per_day": 5.583551660184384,
+    "reviewers_needed": 0.8590079477206746
+  },
+  "val_model_alone": {
+    "t_low": 0.21,
+    "t_high": 0.21,
+    "cost_per_case": 0.44662414920051857,
+    "cost_per_1000": 446.62414920051856,
+    "review_share": 0.0,
+    "recall_violation": 0.95703125,
+    "false_alert_rate": 0.03889369057908384,
+    "rate_pos_pass": 0.04296875,
+    "rate_pos_review": 0.0,
+    "rate_pos_fail": 0.95703125,
+    "rate_neg_pass": 0.9611063094209161,
+    "rate_neg_review": 0.0,
+    "rate_neg_fail": 0.03889369057908384,
+    "reviews_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "reviewers_needed": 0.0
+  },
+  "test_band": {
+    "t_low": 0.002,
+    "t_high": 0.87,
+    "cost_per_case": 0.2839114644680016,
+    "cost_per_1000": 283.9114644680016,
+    "review_share": 0.3275492175668854,
+    "recall_violation": 0.9714285714285715,
+    "false_alert_rate": 0.0,
+    "rate_pos_pass": 0.02857142857142857,
+    "rate_pos_review": 0.6428571428571429,
+    "rate_pos_fail": 0.32857142857142857,
+    "rate_neg_pass": 0.6890459363957597,
+    "rate_neg_review": 0.31095406360424027,
+    "rate_neg_fail": 0.0,
+    "reviews_per_day": 1965.2953054013124,
+    "review_hours_per_day": 5.459153626114756,
+    "reviewers_needed": 0.8398697886330394
+  },
+  "test_model_alone": {
+    "t_low": 0.21,
+    "t_high": 0.21,
+    "cost_per_case": 0.5217036850075719,
+    "cost_per_1000": 521.703685007572,
+    "review_share": 0.0,
+    "recall_violation": 0.9214285714285714,
+    "false_alert_rate": 0.037102473498233215,
+    "rate_pos_pass": 0.07857142857142857,
+    "rate_pos_review": 0.0,
+    "rate_pos_fail": 0.9214285714285714,
+    "rate_neg_pass": 0.9628975265017667,
+    "rate_neg_review": 0.0,
+    "rate_neg_fail": 0.037102473498233215,
+    "reviews_per_day": 0.0,
+    "review_hours_per_day": 0.0,
+    "reviewers_needed": 0.0
+  },
+  "test_band_ci95": {
+    "low": 233.1652609512592,
+    "high": 350.7792798951147
+  },
+  "test_model_alone_ci95": {
+    "low": 409.6869005552751,
+    "high": 643.4174659262999
+  },
+  "test_counts_band": {
+    "PASS": {
+      "violation": 4,
+      "compliant": 390
+    },
+    "REVIEW": {
+      "violation": 90,
+      "compliant": 176
+    },
+    "FAIL": {
+      "violation": 46,
+      "compliant": 0
+    }
+  },
+  "test_counts_model_alone": {
+    "PASS": {
+      "violation": 11,
+      "compliant": 545
+    },
+    "REVIEW": {
+      "violation": 0,
+      "compliant": 0
+    },
+    "FAIL": {
+      "violation": 129,
+      "compliant": 21
+    }
+  },
+  "cost_do_nothing": 2500.0,
+  "cost_check_everything": 255.55555555555554,
+  "break_even": {
+    "base_rate_vs_do_nothing": {
+      "value": null,
+      "design_cheaper": "always",
+      "searched": [
+        0.0001,
+        0.3
+      ]
+    },
+    "base_rate_vs_check_everything": {
+      "value": 0.01540563675951693,
+      "design_cheaper": "below",
+      "searched": [
+        0.001,
+        0.3
+      ]
+    },
+    "fn_vs_check_everything": {
+      "value": 17.917667847526452,
+      "design_cheaper": "below",
+      "searched": [
+        1.0,
+        500.0
+      ]
+    },
+    "fn_vs_do_nothing": {
+      "value": 3.9998539846199326,
+      "design_cheaper": "above",
+      "searched": [
+        0.1,
+        500.0
+      ]
+    }
+  }
+}

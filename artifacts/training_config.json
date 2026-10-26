@@ -1,0 +1,15 @@
+{
+  "base_model": "yolo11n.pt",
+  "epochs_requested": 20,
+  "epochs_run": 20,
+  "best_epoch": 20,
+  "imgsz": 640,
+  "batch": 16,
+  "patience": 15,
+  "seed": 0,
+  "device": "mps",
+  "minutes": 57.0,
+  "machine": "Darwin arm64 (Apple M4 Pro)",
+  "torch": "2.11.0",
+  "dataset": "joseph-nelson/hard-hat-workers/5"
+}

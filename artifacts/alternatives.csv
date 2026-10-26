@@ -1,0 +1,5 @@
+policy,cost_per_1000,review_share,reviewers_needed,cost_per_day
+Do nothing (no camera monitoring),2500.0,0.0,0.0,15000.0
+Operator checks every snapshot,255.55555555555554,1.0,2.5641025641025643,1533.3333333333333
+Model decides alone (threshold 0.21),521.703685007572,0.0,0.0,3130.2221100454317
+Model + review band (0.002 to 0.87),283.9114644680016,0.3275492175668854,0.8398697886330394,1703.4687868080098

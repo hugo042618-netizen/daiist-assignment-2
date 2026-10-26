@@ -1,69 +1,42 @@
 # Assignment 2 Report
 
-*Delete this italic guidance as you fill in each section. You'll be asked to
-defend any of this without your code in front of you. Write only what you
-can actually explain.*
-
-- **Name**:
-- **Student ID**:
-- **Email**:
-- **Group**: [BBADBA 5A | BBADBA 5B | PPLEDBA 5A | BDBA 3A]
+- **Name**: Hugo Marsiglia
+- **Student ID**: 19610
+- **Email**: hmarsiglia.ieu2022@student.ie.edu
+- **Group**: BBADBA 5A
 
 ## Business problem, and the cost of being wrong
 
-*The decision this model supports, who or what acts on it, and what happens
-when it's wrong in each direction. Be concrete about the asymmetry: which
-mistake is worse, roughly by how much, and why. Everything downstream (your
-threshold, how much you send to a person, which metric you care about) has to trace
-back to this section.*
+TO WRITE (question 1)
 
 ## Dataset
 
-*Workspace / project / version on Roboflow Universe, and the link. What one
-image represents, what the classes are, and why this dataset actually serves
-the problem above rather than merely resembling it.*
+TO WRITE (question 2)
 
 ## What the dataset's composition implies
 
-*Instances per class, train/val/test sizes, typical object size relative to the
-image. Then the interpretation: which per-class numbers will be too thin to
-trust, whether the test split resembles the images you'd really see, and what
-you therefore can't conclude from your results.*
+TO WRITE (question 3)
 
 ## Finetuning and baselines
 
-*Which model and task (detection or classification) and why. A results table on
-the same test split: your finetuned model, the pretrained COCO model zero-shot,
-and a trivial baseline. What changed, and whether the gap is as large as you
-expected.*
+TO WRITE (question 4)
 
 ## Per-class evaluation and failure modes
 
-*Per-class AP50, or per-class precision/recall and the confusion matrix.
-Which class carries the headline number, which one is dragging, and what the
-model actually confuses with what. Show where it breaks, not just that it
-works.*
+TO WRITE (question 5)
 
 ## Cost matrix and operating point
 
-*Your euro cost for each kind of error and where each figure came from. The
-base rate you assumed. The cost-against-threshold sweep, and the operating
-point you chose. State the assumption that would most change your answer if it
-were wrong.*
+TO WRITE (question 6)
 
 ## What a person still has to check
 
-*Your two thresholds, and what share of cases they send to a person. How many
-that is per day, how long one takes to check, and how many people that needs.
-Is that realistic? Then your design priced against the three alternatives:
-doing nothing, having a person check everything, and letting the model decide
-on its own.*
+TO WRITE (question 7)
 
 ## Limitations & next steps
 
-*Real limitations you found, and concretely how you'd address each one with
-more time or data. Not generic hedging.*
+TO WRITE (question 8)
 
 ## Generative AI use disclosure
 
-*Per the syllabus AI Policy: what you used and how, or "no AI content used."*
+TO WRITE (question 9)

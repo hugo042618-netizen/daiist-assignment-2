@@ -1,0 +1,299 @@
+{
+  "dataset": {
+    "workspace": "joseph-nelson",
+    "project": "hard-hat-workers",
+    "version": 5,
+    "url": "https://universe.roboflow.com/joseph-nelson/hard-hat-workers/dataset/5"
+  },
+  "positive_class": "violation = snapshot with at least one head box",
+  "finetuned": {
+    "overall": {
+      "map50": 0.9675153687541678,
+      "map50_95": 0.6752552535206432,
+      "precision": 0.9455559605131387,
+      "recall": 0.9319552035906178
+    },
+    "per_class": {
+      "head": {
+        "instances": 726,
+        "precision": 0.9349002018514049,
+        "recall": 0.9338842975206612,
+        "ap50": 0.9554424300793194,
+        "ap50_95": 0.670085628578829,
+        "precision_at_op": 0.8675,
+        "recall_at_op": 0.9559228650137741,
+        "boxes_at_op": 800
+      },
+      "helmet": {
+        "instances": 1915,
+        "precision": 0.9562117191748726,
+        "recall": 0.9300261096605744,
+        "ap50": 0.9795883074290163,
+        "ap50_95": 0.6804248784624574,
+        "precision_at_op": 0.8891022563610178,
+        "recall_at_op": 0.9671018276762402,
+        "boxes_at_op": 2083
+      }
+    },
+    "image_level_at_op": {
+      "threshold": 0.21,
+      "tp": 129,
+      "fn": 11,
+      "fp": 21,
+      "tn": 545,
+      "accuracy": 0.9546742209631728,
+      "recall_violation": 0.9214285714285714,
+      "precision_violation": 0.86,
+      "cost_per_1000": 521.703685007572,
+      "best_cost_per_1000_any_threshold": 488.1347804139324,
+      "roc_auc": 0.9667339727410399,
+      "score": "highest head confidence"
+    }
+  },
+  "finetuned_val": {
+    "overall": {
+      "map50": 0.9668663673222453,
+      "map50_95": 0.6670737077240859,
+      "precision": 0.9385350027330066,
+      "recall": 0.9279068622502914
+    },
+    "per_class": {
+      "head": {
+        "instances": 1339,
+        "precision": 0.9161301126068363,
+        "recall": 0.9253174010455564,
+        "ap50": 0.9562094593338781,
+        "ap50_95": 0.6583835995639488,
+        "precision_at_op": 0.8387728459530026,
+        "recall_at_op": 0.9596713965646004,
+        "boxes_at_op": 1532
+      },
+      "helmet": {
+        "instances": 3913,
+        "precision": 0.960939892859177,
+        "recall": 0.9304963234550264,
+        "ap50": 0.9775232753106123,
+        "ap50_95": 0.6757638158842231,
+        "precision_at_op": 0.8979007633587787,
+        "recall_at_op": 0.9619217991311014,
+        "boxes_at_op": 4192
+      }
+    }
+  },
+  "zero_shot_coco": {
+    "overall": {
+      "map50": 0.0,
+      "map50_95": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "per_class": {
+      "head": {
+        "instances": 726,
+        "precision": 0.0,
+        "recall": 0.0,
+        "ap50": 0.0,
+        "ap50_95": 0.0,
+        "precision_at_op": 0.0,
+        "recall_at_op": 0.0,
+        "boxes_at_op": 0
+      },
+      "helmet": {
+        "instances": 1915,
+        "precision": 0.0,
+        "recall": 0.0,
+        "ap50": 0.0,
+        "ap50_95": 0.0,
+        "precision_at_op": 0.0,
+        "recall_at_op": 0.0,
+        "boxes_at_op": 0
+      }
+    },
+    "image_level_at_op": {
+      "threshold": 0.21,
+      "tp": 140,
+      "fn": 0,
+      "fp": 553,
+      "tn": 13,
+      "accuracy": 0.21671388101983002,
+      "recall_violation": 1.0,
+      "precision_violation": 0.20202020202020202,
+      "cost_per_1000": 3912.720848056537,
+      "best_cost_per_1000_any_threshold": 2334.482584553256,
+      "roc_auc": 0.6769687026754164,
+      "score": "highest COCO person confidence (COCO has no head class)"
+    }
+  },
+  "predict_nothing": {
+    "overall": {
+      "map50": 0.0,
+      "map50_95": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "per_class": {
+      "head": {
+        "instances": 726,
+        "precision": 0.0,
+        "recall": 0.0,
+        "ap50": 0.0,
+        "ap50_95": 0.0,
+        "precision_at_op": 0.0,
+        "recall_at_op": 0.0,
+        "boxes_at_op": 0
+      },
+      "helmet": {
+        "instances": 1915,
+        "precision": 0.0,
+        "recall": 0.0,
+        "ap50": 0.0,
+        "ap50_95": 0.0,
+        "precision_at_op": 0.0,
+        "recall_at_op": 0.0,
+        "boxes_at_op": 0
+      }
+    },
+    "image_level_at_op": {
+      "threshold": 0.21,
+      "tp": 0,
+      "fn": 140,
+      "fp": 0,
+      "tn": 566,
+      "accuracy": 0.8016997167138811,
+      "recall_violation": 0.0,
+      "precision_violation": 0.0,
+      "cost_per_1000": 2500.0,
+      "best_cost_per_1000_any_threshold": 2500.0,
+      "roc_auc": 0.5,
+      "score": "always 0"
+    }
+  },
+  "ultralytics_val_on_test": {
+    "map50": 0.9703562189023914,
+    "map50_95": 0.6785501642086879,
+    "precision": 0.9541962701268121,
+    "recall": 0.9264229045738659
+  },
+  "coco_classes_seen_on_test_conf25": {
+    "person": 2906,
+    "car": 49,
+    "truck": 35,
+    "chair": 35,
+    "tie": 34,
+    "sports ball": 26,
+    "bottle": 24,
+    "handbag": 23,
+    "train": 14,
+    "umbrella": 14
+  },
+  "confusion_matrix": {
+    "labels": [
+      "head",
+      "helmet",
+      "background"
+    ],
+    "iou_threshold": 0.5,
+    "at_conf_0.25": [
+      [
+        692,
+        5,
+        87
+      ],
+      [
+        14,
+        1844,
+        184
+      ],
+      [
+        20,
+        66,
+        0
+      ]
+    ],
+    "at_operating_threshold": [
+      [
+        692,
+        5,
+        103
+      ],
+      [
+        16,
+        1850,
+        217
+      ],
+      [
+        18,
+        60,
+        0
+      ]
+    ],
+    "operating_threshold": 0.21,
+    "layout": "rows = predicted class, columns = true class"
+  },
+  "head_recall_breakdown": {
+    "at_conf_0.25": {
+      "small head (<0.25% of image)": {
+        "found": 67,
+        "total": 81,
+        "recall": 0.8271604938271605
+      },
+      "medium head (0.25-1%)": {
+        "found": 432,
+        "total": 442,
+        "recall": 0.9773755656108597
+      },
+      "large head (>1%)": {
+        "found": 195,
+        "total": 203,
+        "recall": 0.9605911330049262
+      },
+      "1-3 people in photo": {
+        "found": 29,
+        "total": 34,
+        "recall": 0.8529411764705882
+      },
+      "4-8 people in photo": {
+        "found": 331,
+        "total": 343,
+        "recall": 0.9650145772594753
+      },
+      "9+ people in photo": {
+        "found": 334,
+        "total": 349,
+        "recall": 0.9570200573065902
+      }
+    },
+    "at_operating_threshold": {
+      "small head (<0.25% of image)": {
+        "found": 67,
+        "total": 81,
+        "recall": 0.8271604938271605
+      },
+      "medium head (0.25-1%)": {
+        "found": 432,
+        "total": 442,
+        "recall": 0.9773755656108597
+      },
+      "large head (>1%)": {
+        "found": 195,
+        "total": 203,
+        "recall": 0.9605911330049262
+      },
+      "1-3 people in photo": {
+        "found": 29,
+        "total": 34,
+        "recall": 0.8529411764705882
+      },
+      "4-8 people in photo": {
+        "found": 331,
+        "total": 343,
+        "recall": 0.9650145772594753
+      },
+      "9+ people in photo": {
+        "found": 334,
+        "total": 349,
+        "recall": 0.9570200573065902
+      }
+    }
+  }
+}
