@@ -275,6 +275,6 @@ I used generative AI extensively:
   threshold-search method. I reviewed and confirmed each figure, and decided to keep €50 per missed snapshot (naming the
   overlap between snapshots as a limitation) and to cap review at one operator.
 - Claude prepared a study guide with the results, pictures and the patterns it noticed in the data and the failures.
-- The analysis and conclusions in this report are my own answers to interview questions. I wrote them myself, an AI
-  tool corrected their grammar, and Claude placed them in this report and added the tables from the pipeline's output
+- The analysis and conclusions in this report are my own answers to interview questions. I wrote them myself, ChatGPT
+  (OpenAI) corrected their grammar, and Claude placed them in this report and added the tables from the pipeline's output
   files in `artifacts/`.
